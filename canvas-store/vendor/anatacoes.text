@@ -1,0 +1,48 @@
+Anotações Jquery
+
+/* manipulação de eventos
+
+// $('.featured-item:first h4').start('<span class="badge bg-secondary">Novo</span>')
+    // $('.featured-item:first h4').html('<span class="badge bg-secondary">Novo</span>')
+    // $('.featured-item:first h4').addClass('active')
+    // $('.featured-item:first h4').removeClass('active')
+    // $('.featured-item:first h4').toggleClass('active')
+    // $('.featured-item:first h4').hide()
+    // $('.featured-item:first h4').show()
+    // $('.featured-item:first h4').fadeIn(2000)
+    // $('.featured-item:first h4').fadeOut()
+    //  $('.featured-item:first h4').css('color', '#f00')
+
+
+/* Calllback
+
+/*$('.feature-item:nth(1)').hide(2000, function () {
+   alert($(this).find('h4').text() + 'esgotado');
+   
+})*/
+
+
+
+/* Animações
+
+//.hide(duracao)
+ // .fadeOut(duracao)
+ //.toggle(duracao)
+  // .toggle(duracao)
+
+  /* $('#form-submit').on('click', function(e){
+
+      e.preventDefault()
+      if($('#email).val() != ''){
+
+         $('#email).animate({
+            opacity:"toggle",
+            top:"-50"
+         },500, function(){
+            console.log($(this).val())
+         })
+      }
+
+      $('#email').animate(500, function())
+
+   })*/

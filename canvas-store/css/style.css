@@ -1,0 +1,32 @@
+.social-icons ul{
+ margin: 0 auto;
+ width: 50%;
+ display: table;
+
+}
+
+.caption{
+  padding-top: 100px;
+}
+
+.col-md-6 ,col-sm-12{
+  background-color: #C0C0C0;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.d-grid gap-2 d-md-block, btn-dark{
+  margin-top: 50px;
+}
+
+#email{
+  position: relative;
+}
+
+.invalid{
+  border-color: #F00;
+}
+
+.text-muted{
+  display: none;
+}
